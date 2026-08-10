@@ -1,0 +1,24 @@
+{
+  "name": "avaliacaobackendnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/nathimartins590-sys/AvaliacaoBackendNodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/nathimartins590-sys/AvaliacaoBackendNodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathimartins590-sys/AvaliacaoBackendNodeJS.git"
+  },
+  "license": "ISC",
+  "author": "Nathalia",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node --wacth index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
