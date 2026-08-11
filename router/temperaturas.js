@@ -10,7 +10,7 @@ router.post('/celciusF', (req, res) => {
         return res.status(400).json({ erro: 'Envie um grau em fahrenheit' });
     }
 
-    const fahrenheit = ( celsius * 9/5 ) + 36;
+     fahrenheit = ( celsius * 9/5 ) + 36;
 
     res.json({ fahrenheit });
 });
@@ -37,7 +37,7 @@ router.post('/celciusK', (req, res) => {
         return res.status(400).json({ erro: 'Envie um grau em celsius' });
     }
 
-    const kelvin = (celcius + 273.15);
+     kelvin = (celcius + 273.15);
 
     res.json({ kelvin });
 });
@@ -63,7 +63,7 @@ router.post('/celciusRe', (req, res) => {
         return res.status(400).json({ erro: 'Envie um grau em celsius' });
     }
 
-    const reaumur = (celcius * 4 / 5);
+     reaumur = (celcius * 4 / 5);
 
     res.json({ reaumur });
 });
@@ -76,7 +76,7 @@ router.post('/celciusRa', (req, res) => {
         return res.status(400).json({ erro: 'Envie um grau em celsius' });
     }
 
-    const rankie = ( celcius + 273.15) * 9 / 5;
+     rankie = ( celcius + 273.15) * 9 / 5;
 
     res.json({ rankie });
 });
